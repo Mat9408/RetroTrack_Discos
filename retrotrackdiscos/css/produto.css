@@ -1,0 +1,173 @@
+header {
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    color: #000;
+}
+
+.logotipo {
+    position: relative;
+    top: 2px;
+    left: 45px;
+}   
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.menu-opcoes ul li{
+    display: inline;   
+    margin-left: 8px;
+}
+
+.sacola {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 140px;
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    float: right;
+    font-size: 14px;
+}
+
+.cabecalho {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #ffe9a8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cabecalho h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.produto h4 {  
+    position: relative;
+    top: 50px;
+    left: 430px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.produto p {
+    position: relative;
+    top: 60px;
+    left: 430px;
+    font-size: 18px;
+}
+
+.produto button {
+    position: relative;
+    top: -63px;
+    left: 430px;
+    background-color: #ffe9a8;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.detalhes {
+    padding-bottom: 10px;
+}
+
+.detalhes h4{
+    font-size: 30px;
+    line-height: 2;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.detalhes table {
+    width: 50%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: black;
+}
+
+.detalhes table th {
+    background-color: #ffe9a8;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe9a8;
+}
+
+footer {
+    background-color: #000000;
+    clear:both;
+    padding: 25px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    height:32px;
+    width:32px;
+    display: block;
+    text-indent:-9999px;
+    bottom: 50px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebooklogo.png);
+}
+
+.social a[href*="instagram.com"] {
+    background-image: url(../img/instalogo.png);
+}
+
+.social a[href*="youtube.com"] {
+    background-image: url(../img/youtubelogo.png);
+}
+
+.frase {
+    color: #fff;
+    text-align: center;
+}
